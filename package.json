@@ -1,0 +1,20 @@
+{
+  "name": "error-handling",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "demo": "ts-node src/index.ts",
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "author": "Pavel <SonyaHon> Volkov",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "ts-node": "^10.2.1"
+  }
+}
