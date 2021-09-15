@@ -1,7 +1,7 @@
 {
   "name": "error-handling",
   "version": "0.0.1",
-  "description": "",
+  "description": "Error handling utilities functions",
   "main": "dist/index.js",
   "scripts": {
     "demo": "ts-node src/index.ts",
@@ -16,5 +16,8 @@
   "devDependencies": {
     "@types/node": "^16.9.1",
     "ts-node": "^10.2.1"
+  },
+  "repository": {
+    "url": "https://github.com/SonyaHon/error-handling"
   }
 }
